@@ -3,10 +3,11 @@
   // Page is loaded
 let headerSec= document.getElementById("header");
   //set header section size to winodws size
- let paddingY= (headerSec.offsetHeight/headerSec.offsetWidth)*100;
-  headerSec.style.paddingTop  = paddingY  *.40+ '%' ;
-  headerSec.style.paddingBottom  =paddingY *.40 + '%' ;
- console.log((headerSec.height/headerSec.width)*100 + '%');
+ //let paddingY= (headerSec.offsetHeight/headerSec.offsetWidth)*100;
+ headerSec.style.height  = window.innerHeight  + 'px' ;
+  //headerSec.style.paddingTop  = paddingY  + '%' ;
+ // headerSec.style.paddingBottom  =paddingY *.40 + '%' ;
+ 
   
   
   const lowerImage = document.querySelectorAll(".low_qua_Img");
